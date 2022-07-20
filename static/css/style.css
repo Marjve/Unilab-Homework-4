@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600&family=Anek+Malayalam&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400;1,600&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#more-products-btn{
+  position: absolute;
+  bottom:61px; 
+  right:-35px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+header{
+  padding:30px 0;
+  border-bottom: 2px solid;
+  margin-bottom: 72px;
+}
+.container{
+  max-width: 1148px;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid; */
+}
+.logo-wrapper, .container nav, .icon-wrapper, .menu-list{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color:#000000;
+}
+.logo-wrapper{
+  margin-right: 270px;
+}
+.logo-wrapper a{
+  font-size:26px;
+}
+nav ul li{
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+
+nav ul li a:hover{
+  color:brown;
+}
+nav ul li:not(:last-child){
+  margin-right: 50px;
+}
+
+.icon-wrapper{
+  margin-left: 310px;
+}
+.title{
+  display: block;
+  text-align: center;
+}
+.products-board{
+  margin-top: 65px;
+  display: flex;
+  position: relative;
+  padding-bottom: 120px;
+}
+.products-board .product{
+  width:333px;
+  position:relative;
+}
+.products-board .product:not(:last-child){
+  margin-right: 74.5px;
+}
+.products-board .product .card{
+  padding: 8px;
+  height: 487px;
+  width:100%;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  margin-bottom: 23px;
+}
+.text-content{
+  font-family: 'Poppins';
+  padding:20px 15px 0 15px;
+}
+.text-content h3{
+  margin-bottom: 10px;
+}
+
+.products-board .product button{
+  position: absolute;
+  right: 0;
+  width: 118px;
+  height: 30px;
+  background: transparent;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.products-board .product ul{
+  margin-top: 115px;
+  line-height: 215%;
+  padding-left: 25px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+.main-title{
+  font-family: 'Andada Pro';
+  color:#7D0000;
+  text-transform: capitalize;
+}
+.contact {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.contact nav{
+  font-family: 'Andada Pro';
+  display: flex;
+  width:70%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 60px;
+  
+}
+.contact ul{
+  text-align: initial;
+  list-style: none;
+  margin-top:120px;
+  
+}
+.contact nav ul:last-child{
+  position:absolute;
+  right: 0;
+}
+.contact ul li{
+  color:#0B253E;
+  margin-bottom: 34px;
+}
+.contact ul:first-child li:first-child{
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.about{
+  font-family: 'Andada Pro';
+  display: flex;
+  padding-top: 115px;
+  padding-bottom: 100px;
+}
+.about .about-text-content p{
+  font-weight: 600;
+  font-size: 22.5px;
+  line-height: 165%;
+  width: 550px;
+  text-transform: capitalize;
+}
+.about .about-text-content{
+  position: relative;
+  margin-right: 74px;
+}
+.about .about-text-content span{
+  text-align: right;
+  position: absolute;
+  right: 0;
+  margin-top: 89px;
+  font-size: 22.5px;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: underline;
+}
+.news-container{
+  max-width: 1248px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.news-container h2{
+  display: inline-block;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.news-container .input-wrapper{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  width: 369px;
+  height: 47px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.news-container .input-wrapper input{
+  height: 30px;
+  width: 300px;
+  border: none;
+  outline:none;
+}
+.news-container .input-wrapper input:active{
+  border: none;
+  outline:none;
+}
+.news-container .input-wrapper img{
+  margin: 0 20px 0 15px;
+  display: inline;
+  float: left;
+}
+
+.news-container nav{
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 68px;
+  /* margin:0 auto; */
+}
+.news-container nav a{
+  font-weight: bolder;
+  font-size: 18px;
+}
+.news-container nav a:not(:last-child){
+  margin-right: 65px;
+}
+.news-container .info-card img{
+  border-radius: 14px 0 0 14px;
+}
+.info-card{
+  display: flex;
+  position: relative;
+  margin-bottom: 117px;
+}
+.info-card .info-card-text{
+  margin-left: 22px;
+  width: 918px;
+  height: 228px;
+  background: #E5EBE5;
+  border-radius: 0px 14px 14px 0px;
+  padding: 38px 36px 0 36px;
+}
+.info-card .info-card-text p{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  margin-top: 32px;
+  width: 850px;
+  color: #474747;
+}
+.info-card a{
+  position:absolute;
+  right: 0;
+  bottom: -55px;
+  width: 174px;
+  height: 40px;
+  border: 1px solid #000000;
+  font-size: 12px;
+  font-weight: bolder;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+  border-radius: 4px;
+}
+.profile-page{
+  padding-top: 130px;
+}
+.profile-page img{
+  float: left;
+  margin-right: 68px;
+}
+.profile-page h1{
+  font-size: 30px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin-top: 75px;
+  margin-bottom: 14px;
+}
+.profile-page h2{
+  font-size: 22px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: italic;
+  color: #546CCC;
+}
+.personal-info{
+  margin-top:100px;
+  width: 1020px;
+  height: 500px;
+  padding-bottom: 162px;
+  position: relative;
+}
+.personal-info span{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding:15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #7D0000;
+  display: inline-block;
+}
+.personal-info nav{
+  display: flex;
+}
+.personal-info nav ul:first-child{
+  font-weight: bold;
+  margin-right: 120px;
+}
+.personal-info nav ul li{
+  list-style: none;
+  margin-top: 20px;
+}
+.personal-info button{
+  position: absolute;
+  right: 0;
+  bottom:162px;
+  width: 265px;
+  height: 70px;
+  background: #87AC87;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 25px;
+  color:#FFFFFF;
+  border: 0;
+  cursor: pointer;
+}
